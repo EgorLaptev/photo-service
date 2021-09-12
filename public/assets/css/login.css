@@ -1,0 +1,37 @@
+.login {
+    padding: 250px 0 200px 0;
+}
+
+.login__form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login__form input {
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 18rem;
+    color: var(--blue);
+    background: #63679411;
+}
+
+.login__form input::placeholder {
+    color: lightgrey;
+}
+
+.login__form input[type='submit'] {
+    background: var(--blue);
+    color: white;
+    grid-column: 1 / -1;
+}
+
+.error {
+    margin-top: 25px;
+    text-align: center;
+    color: var(--red);
+}

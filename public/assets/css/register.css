@@ -1,0 +1,37 @@
+.register {
+    padding: 250px 0 200px 0;
+}
+
+.register__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.register__form input {
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 18rem;
+    color: var(--blue);
+    background: #63679411;
+}
+
+.register__form input::placeholder {
+    color: lightgrey;
+}
+
+.register__form input[type='submit'] {
+    background: var(--blue);
+    color: white;
+    grid-column: 1 / -1;
+}
+
+.error {
+    margin-top: 25px;
+    text-align: center;
+    color: var(--red);
+}

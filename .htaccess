@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{FILENAME_PATH} !-f
+RewriteCond %{FILENAME_PATH} !-d
+RewriteRule (.*) public/$1 [L,QSA]

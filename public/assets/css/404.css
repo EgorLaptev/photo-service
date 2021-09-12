@@ -1,0 +1,16 @@
+body {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.title {
+    text-align: center;
+    font-size: 102rem;
+    color: var(--blue);
+    height: 100%;
+    margin: auto 0;
+}
+
